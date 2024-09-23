@@ -12,7 +12,7 @@ from PyQt5.QtWidgets import QApplication, QWidget
 class EmptyWindow(QWidget): # Inheriting QWigdet Class
     # Constructor
     def __init__(self):
-        super().__init__() # Creating a constructor of the QWidget Class
+        super().__init__() # Calling the constructor of the QWidget Class
         self.initializeUI()
     
     # Initializing UI
